@@ -1,0 +1,10 @@
+.instructor-title-name{
+    padding: 50px;
+    background-color: #f5f1ee;
+    margin-top: 0;
+}
+.course-hp-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}

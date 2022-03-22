@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Appointment from './components/Appointment/Appointment/Appointment';
 import ContactUs from './components/ContactUs/ContactUs';
+import InstructorProfile from './components/Doctors/InstructorProfile/InstructorProfile';
+import Instructors from './components/Doctors/Instructors/Instructors';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Register from './components/Register/Register';
@@ -22,10 +24,10 @@ function App() {
             <Route path="home" element={<Home />} />
             <Route path="appointments" element={<Appointment />} />
             <Route path="contact" element={<ContactUs />} />
-            {/* <Route path="enroll/:courseId" element={<Enroll />} />
-            <Route path="instructors" element={<Instructors />} />
+            {/* <Route path="enroll/:courseId" element={<Enroll />} /> */}
+            <Route path="doctors" element={<Instructors />} />
             <Route path="instructorProfile/:instructorId" element={<InstructorProfile />} />
-            <Route path="blogs" element={<Blogs />} />  */}
+            {/* <Route path="blogs" element={<Blogs />} />  */}
             <Route path="login" element={<Login />} />
             <Route path="register" element={<Register />} />
           </Routes>
