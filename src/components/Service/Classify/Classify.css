@@ -1,0 +1,42 @@
+.service-class{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.service-class-img {
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+.service-class:hover{
+    color: black;
+    background-color: rgb(230, 216, 216);
+}
+.service-class h3{
+    color: black;
+    font-weight: bold;
+}
+.service-class h5{
+    color: gray;
+}
+.service-class:hover{
+    overflow: hidden;
+    transform: scale(1.02);
+    transition: transform 1s;
+}
+.class-btn{
+    font-weight: bold;
+    color: black;
+    border: 1px solid gray;
+}
+.class-btn:hover{
+    color: white;
+    background-color: brown;
+}
+.btn-book{
+    margin-left: 80px;
+}
+.btn-read{
+    margin-left: 40px;
+}
+.plus-icon{
+    color: brown;
+}

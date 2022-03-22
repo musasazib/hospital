@@ -7,7 +7,7 @@ const InstructorProfile = () => {
     const [details, setDetails] = useState([]);
     console.log(details)
     useEffect(() => {
-        fetch('http://localhost:8000/doctors')
+        fetch('https://shielded-fortress-26977.herokuapp.com/doctors')
             .then(res => res.json())
             .then(data => {
                 const book = data.find(td => td._id === instructorId);

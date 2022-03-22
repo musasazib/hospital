@@ -5,7 +5,7 @@ import './Instructors.css';
 const Instructors = () => {
     const [Instructors, setInstructors] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:8000/doctors')
+        fetch('https://shielded-fortress-26977.herokuapp.com/doctors')
             .then(res => res.json())
             .then(data => setInstructors(data));
     }, [])
